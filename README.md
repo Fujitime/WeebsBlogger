@@ -8,3 +8,11 @@
   <img src="https://media1.giphy.com/media/g8AsVGBdP4jkq8cVvo/giphy.gif?cid=790b7611ffaa3e8101992a38578780dab17694b0305c7f48&rid=giphy.gif&ct=g" alt="" height="600" width="1000" />
 </div>
 
+<style>
+  @media only screen and (max-width: 600px) {
+img{
+  width: 2400px;
+  height: 1080px;
+}
+}
+</style>
