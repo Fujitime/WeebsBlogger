@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f2;
+    margin: 0;
+    padding: 0;
+}
+.nap {
+    background-color: #d9966f;
+    padding: 5px;
+    top: 0;
+}
+.hider {
+    display: inline;
+}
+.active {
+    background-color: #f99f38;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+.active:hover {
+    color: green;
+}
+.a {
+    display: block;
+    background-color: #303331;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+}
+
+.li {
+    float: left;
+}
+.a:hover:not(.active) {
+    background-color: #72737446;
+    transition: all 0.5s;
+    color: rgb(255, 255, 255);
+}
+.ul {
+    list-style-type: none;
+    background-color: #303331;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #00b4cc;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+}
+
+.searchTerm:focus {
+    color: #00b4cc;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.oren {
+    background-color: #f99f38;
+}
+footer {
+    padding-top: 3%;
+    padding: 20px;
+    background-color: #292b2c;
+    text-align: center;
+}
+footer span {
+    color: white;
+}
+footer a {
+    color: #5bc0de;
+    font-weight: bold;
+}
+footer p {
+    color: white;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    nav {
+        background-color: #d9966f;
+        padding: 5px;
+        top: 0;
+    }
+
+    nav a {
+        font-size: 15px;
+        font-weight: 300;
+        text-decoration: none;
+        color: white;
+    }
+
+    nav li {
+        display: inline;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+}
